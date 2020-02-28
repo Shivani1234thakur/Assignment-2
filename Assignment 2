@@ -1,0 +1,93 @@
+shiva@DESKTOP-1L2TS40 MINGW64 ~/Desktop/.git (master)
+$ git rm repo.txt
+fatal: pathspec 'repo.txt' did not match any files
+
+shiva@DESKTOP-1L2TS40 MINGW64 ~/Desktop/.git (master)
+$ git rm "repo.txt"
+fatal: pathspec 'repo.txt' did not match any files
+
+shiva@DESKTOP-1L2TS40 MINGW64 ~/Desktop/.git (master)
+$ git rm repo.txt
+fatal: pathspec 'repo.txt' did not match any files
+
+shiva@DESKTOP-1L2TS40 MINGW64 ~/Desktop/.git (master)
+$ git rm repo.txt.txt
+rm 'repo.txt.txt'
+
+shiva@DESKTOP-1L2TS40 MINGW64 ~/Desktop/.git (master)
+$ git clone<https://github.com/opencv/opencv.git>
+bash: syntax error near unexpected token `newline'
+
+shiva@DESKTOP-1L2TS40 MINGW64 ~/Desktop/.git (master)
+$ git clone<"https://github.com/opencv/opencv.git">
+bash: syntax error near unexpected token `newline'
+
+shiva@DESKTOP-1L2TS40 MINGW64 ~/Desktop/.git (master)
+$ git clone <https://github.com/opencv/opencv.git>
+bash: syntax error near unexpected token `newline'
+
+shiva@DESKTOP-1L2TS40 MINGW64 ~/Desktop/.git (master)
+$ git clone https://github.com/opencv/opencv.git
+Cloning into 'opencv'...
+remote: Enumerating objects: 47, done.
+remote: Counting objects: 100% (47/47), done.
+remote: Compressing objects: 100% (37/37), done.
+remote: Total 269059 (delta 18), reused 25 (delta 10), pack-reused 269012
+Receiving objects: 100% (269059/269059), 467.64 MiB | 1.38 MiB/s, done.
+Resolving deltas: 100% (187667/187667), done.
+Updating files: 100% (6132/6132), done.
+
+shiva@DESKTOP-1L2TS40 MINGW64 ~/Desktop/.git (master)
+$ touch shivani.log
+
+shiva@DESKTOP-1L2TS40 MINGW64 ~/Desktop/.git (master)
+$ touch .bhavna
+
+shiva@DESKTOP-1L2TS40 MINGW64 ~/Desktop/.git (master)
+$ touch bhavna.log
+
+
+shiva@DESKTOP-1L2TS40 MINGW64 ~/Desktop/.git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    repo.txt.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .bhavna
+        bhavna.log
+        opencv/
+        shivani.log
+
+
+shiva@DESKTOP-1L2TS40 MINGW64 ~/Desktop/.git (master)
+$ touch shalu.log
+
+shiva@DESKTOP-1L2TS40 MINGW64 ~/Desktop/.git (master)
+$ touch lalit.log
+
+shiva@DESKTOP-1L2TS40 MINGW64 ~/Desktop/.git (master)
+$ touch .gitignore
+shiva@DESKTOP-1L2TS40 MINGW64 ~/Desktop/.git (master)
+$ touch lalit.log
+
+shiva@DESKTOP-1L2TS40 MINGW64 ~/Desktop/.git (master)
+$ touch .gitignore
+
+shiva@DESKTOP-1L2TS40 MINGW64 ~/Desktop/.git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    repo.txt.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .bhavna
+        .gitignore
+        bhavna.log
+        opencv/
+        shivani.log
+
